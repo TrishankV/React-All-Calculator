@@ -1,0 +1,45 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Consolas', monospace; 
+    background-image: linear-gradient(rgb(240, 106, 106), rgb(255, 64, 64));
+    height: 60px; /* add this line to fix the header height */
+  }
+  
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  .nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+.nav a:hover {
+        color: rgb(80, 0, 0);
+        transform: scale(1.1);
+      }
+
+
+.footer {
+        background-image: linear-gradient(rgb(240, 106, 106), rgb(255, 64, 64));
+        position:  fixed ;
+        width: 100%;
+        bottom: 0;
+        color: white;
+        /* align-items: center; */
+        /* justify-content: center; */
+        font-family: 'Consolas', monospace; 
+        text-align: center;
+        /* height: 60px; */
+    }
+    

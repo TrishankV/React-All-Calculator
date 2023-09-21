@@ -1,0 +1,474 @@
+/* Calculator Container */
+.calculator {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f2f2f2; /* Grey background */
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    justify-content : center ;}
+
+    .computer {
+        max-width: 450px;
+        margin: 0 auto;
+        background-color: #f2f2f2; /* Grey background */
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        justify-content : center ;}
+
+  
+.scientific {
+          max-width: 60%;
+          margin: 0 auto;
+          background-color: #f2f2f2; /* Grey background */
+          border: 2px solid #ccc;
+          border-radius: 15px;
+          padding: 20px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          text-align: center;
+          justify-content : center ;}
+  
+.interest {
+  max-width: 70vw;
+  margin: 0 auto 20px;
+  background-color: #f2f2f2; /* Grey background */
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.currency {
+  max-width: 1000px;
+  margin: 0 auto 20px;
+  background-color: #f2f2f2; /* Grey background */
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Styles for the category container */
+.category-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* Styles for the category heading */
+.category-container h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Styles for the dropdown select */
+.react-dropdown-select {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+/* Apply some hover effects */
+.react-dropdown-select:hover {
+  cursor: pointer;
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+
+.unit-converter{
+  max-width: 70vw;
+  margin: 0 auto 20px;
+  background-color: #f2f2f2; /* Grey background */
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: flexbox;
+  align-items: center;
+}
+.area {
+  max-width: 70vw;
+  margin: 0 auto 20px;
+  background-color: #f2f2f2; /* Grey background */
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: flexbox;
+  align-items: center;
+}
+.area-lol {
+  flex-direction: row;
+  padding: 10px 10px ;
+}
+
+.area-label{
+  padding: 10px 10px ;
+}
+.area-input-d {
+  /* Adjust padding to control button size */
+ padding: 7px 20px;
+ font-size: 18px; /* Larger font size for the display */
+ font-weight: medium;
+ margin-bottom: 10px;
+ border-radius: 15px;
+ text-align:justify;
+ margin-top: 10px;
+ ;
+ }
+.are-buttonC {
+  padding: 10px 10px; /* Adjust padding to control button size */
+  font-size: 20px;
+  background-color: rgb(0, 197, 0); /* Light grey */
+  color: rgb(251, 251, 251); /* Dark grey text color */
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  align-self: center;
+  border-radius: 10px ;
+  transition: background-color 0.3s ease;
+  margin: 5px; /* Add margin to create gaps between buttons */
+}
+
+.input-area-container {
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  align-items: center; /* Align items to the start of the column */
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-weight: medium ; 
+  font-size :medium ; /* Add some spacing between the columns */
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  align-items: flex-start; /* Align items to the start of the column */
+  margin-bottom: 20px; /* Add some spacing between the columns */
+}
+
+
+.input-container label {
+  margin-bottom: 10px; /* Add spacing between labels and inputs */
+}
+
+
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Consolas', monospace; 
+    min-height: 100vh; /* Ensure the container spans the entire viewport height */
+  }
+  /* Accent Line */
+  .accent-line {
+    background-color: #4caf50; /* Green accent color */
+    height: 3px;
+    margin: 10px 0;
+  }
+  
+  /* Input Display */
+  .input-display {
+    font-size: 38px; /* Larger font size for the display */
+    font-weight: medium;
+    margin-bottom: 20px;
+  }
+  .input-d {
+     /* Adjust padding to control button size */
+    padding: 15px 20px;
+    font-size: 22px; /* Larger font size for the display */
+    font-weight: medium;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    text-align:justify;
+    margin-top: 10px;
+    ;
+    }
+
+    .input-di {
+      /* Adjust padding to control button size */
+     padding: 3px 20px;
+     font-size: 12px; /* Larger font size for the display */
+     font-weight: medium;
+     font-style: "Consolas";
+     margin-bottom: 10px;
+     border-radius: 15px;
+     text-align:justify;
+     margin-top: 10px;
+     ;
+     }
+
+
+  .buttonC {
+    padding: 10px 10px; /* Adjust padding to control button size */
+    font-size: 22px;
+    background-color: rgb(0, 197, 0); /* Light grey */
+    color: rgb(251, 251, 251); /* Dark grey text color */
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    border-radius: 10px ;
+    transition: background-color 0.3s ease;
+    margin: 5px; /* Add margin to create gaps between buttons */
+  }
+  
+  /* Calculator Buttons */
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Add gaps between buttons */
+    flex-wrap: wrap;
+    border-radius: 15px; 
+    color: #4caf50 ;
+  }
+  
+/* Calculator Buttons */
+button {
+    padding: 15px 20px; /* Adjust padding to control button size */
+    font-size: 24px;
+    background-color: #e0e0e0; /* Light grey */
+    color: #333; /* Dark grey text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 10px ;
+    transition: background-color 0.3s ease;
+    margin: 5px; /* Add margin to create gaps between buttons */
+  }
+  
+  /* Add a specific margin to the '=' button */
+  button.equals {
+    margin-right: 0;
+  }
+  
+  button:hover {
+    background-color: #ccc; /* Slightly darker grey on hover */
+  }
+  
+  /* Media Query for Smaller Screens */
+  @media (max-width: 600px) {
+    .calculator {
+      max-width: 100%;
+      padding: 10px;
+    }
+    /* Add more responsive styles as needed */
+  }
+
+
+/* styles.css */
+/* styles.css */
+.select-style {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: 'Consolas', monospace; 
+    text-align: left; /* Align text to the left */
+  }
+  
+  /* styles.css */
+.table-style {
+    font-family: 'Consolas', monospace; 
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+      border-radius: 15px; /* Rounded corners */
+
+    
+  }
+  
+  .table-style th,
+
+  .table-style td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+
+  }
+  
+  .table-style th {
+    background-color: rgb(239, 12, 12);
+    color: white;
+  }
+  
+  .charts-container {
+    display: flex; /* Use flexbox to make charts appear side by side */
+    justify-content: space-between; /* Space evenly between charts */
+  }
+  
+  .chart {
+    flex: 1; /* Allow charts to grow and occupy equal space */
+    margin: 0 10px; /* Add spacing between charts if needed */
+  }
+
+  .input-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .input-table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .input-table label {
+    display: block;
+    text-align: right;
+    padding-right: 10px;
+  }
+  
+  .input-table input[type="text"],
+  .input-table input[type="range"] {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .input-table input[type="text"] {
+    margin-bottom: 5px;
+  }
+  
+  .input-table input[type="range"] {
+    width: auto;
+  }
+
+
+  /* App.css */
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.App {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+
+
+
+input {
+	padding-left: 5px;
+	font-size: 20px;
+	height: 36px;
+}
+
+
+
+
+button {
+	width: 100px;
+	height: 30px;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 15px;
+	border: 2px solid forestgreen;
+	background-color: rgb(226, 252, 184);
+	cursor: pointer;
+}
+
+p,
+h3,
+button,
+.switch {
+	color: forestgreen;
+}
+
+p {
+	font-size: 30px;
+} */
+/* .currency {
+  text-align: center;
+  width: fit-content;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  margin: 0 auto;
+} */
+
+.currency h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container > div {
+  margin: 10px 0;
+  width: 100%;
+  max-width: 300px; /* Adjust this value to control the maximum width of elements */
+}
+
+.container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.container .right {
+  display: flex;
+  align-items: center;
+}
+
+.container .right h3,
+.container .left h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.container button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  margin-top: 20px;
+}
+
+.result h2 {
+  font-size: 20px;
+}
+
+
